@@ -1,4 +1,4 @@
-const checkPalindromeFx = (string) => {
+const checkPalindromeFx = (string: string): string => {
   string = string.toLowerCase().trim();
   // Remove Spaces
   var newWord = "";
